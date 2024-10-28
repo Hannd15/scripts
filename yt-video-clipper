@@ -1,0 +1,3 @@
+yt-dlp $1 -o out
+ffmpeg -i out.* -ss $3 -to $4 $2.m4v
+rm out.*
